@@ -1,20 +1,22 @@
 :root {
-  --primary-color: rgba(4,99,7,1);
-  --primary-color-transparent: rgba(4,99,7,0.2);
+  --primary-color: rgba(74,99,125,1);
+  --primary-color-transparent: rgba(74,99,125,0.2);
+  --background-color: #F5ECD9;
+  --default-color: #4B3B2A;
 }
 
 body {
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-family: "Lora", serif;
   font-weight: 200;
-  color: black;
-  background-color: #fafafa;
+  color: var(--default-color);
+  background-color: var(--background-color);
   margin:0;
   box-sizing:border-box;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: var(--primary-color);
 }
 
 img {
@@ -53,7 +55,8 @@ textarea {
 }
 
 .title {
-  color: #2e4b36;
+  font-family: "Raleway", sans-serif;
+  color: var(--default-color);
   font-size: 1.9rem;
   font-weight: 400;
 }
@@ -90,6 +93,7 @@ textarea {
 }
 
 .header-title-nav-wrapper {
+  font-family: "Raleway", sans-serif;
   display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -116,6 +120,19 @@ textarea {
 
 .nav-item a:hover {
   color: #5f725d;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: var(--primary-color-transparent);
+}
+
+.nav-item a {
+  text-decoration: none; /* reset */
+}
+
+.nav-item a.active {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: var(--primary-color-transparent);
 }
 
 .nav-toggle {
@@ -148,9 +165,13 @@ textarea {
 
 .content {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .section-title {
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   padding-top: 16px;
   padding-bottom: 16px;

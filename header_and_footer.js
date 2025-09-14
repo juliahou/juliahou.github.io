@@ -8,6 +8,16 @@ function setupHeader() {
       toggle.classList.toggle('open');
     });
   }
+
+  // Highlight the current page link
+  const currentPage = window.location.pathname.replace(/\/$/, "");
+  const navLinks = document.querySelectorAll(".nav-item a");
+
+  navLinks.forEach(link => {
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+  });
 }
 
 // Wait for the header to load
