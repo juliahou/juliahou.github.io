@@ -1,7 +1,7 @@
 :root {
   --primary-color: rgba(74,99,125,1);
   --primary-color-transparent: rgba(74,99,125,0.2);
-  --background-color: #F5ECD9;
+  --background-color: #f7f3e9;
   --default-color: #4B3B2A;
 }
 
@@ -9,8 +9,8 @@ body {
   font-family: "Lora", serif;
   font-weight: 200;
   color: var(--default-color);
-  background-color: var(--background-color);
-  margin:0;
+background-color: var(--background-color);
+    margin:0;
   box-sizing:border-box;
 }
 
