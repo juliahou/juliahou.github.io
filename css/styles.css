@@ -170,6 +170,22 @@ textarea {
   gap: 16px;
 }
 
+.divider-centered {
+  width: 20px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 10px 0px;
+  border-radius: 2px;
+}
+
+.super-section-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 16px;
+  align-text: center;
+}
+
 .section-title {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
