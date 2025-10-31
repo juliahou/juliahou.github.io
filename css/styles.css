@@ -1,6 +1,7 @@
 :root {
   --primary-color: rgba(74,99,125,1);
   --primary-color-transparent: rgba(74,99,125,0.2);
+  --primary-color-slightly-transparent: rgba(74,99,125,0.7);
   --background-color: #f7f3e9;
   --default-color: #4B3B2A;
 }
@@ -154,7 +155,6 @@ textarea {
 .content-wrapper{
   padding-right: 5vw;
     padding-left: 5vw;
-    padding-bottom: 5vmax;
     justify-content: center;
     margin: 0 auto;
     box-sizing: border-box;
@@ -173,8 +173,16 @@ textarea {
 .divider-centered {
   width: 20px;
   height: 2px;
-  background: rgba(0, 0, 0, 0.2);
+  background: var(--primary-color-transparent);
   margin: 10px 0px;
+  border-radius: 2px;
+}
+
+.bigger-divider-centered {
+  width: 180px;
+  height: 2px;
+  background: var(--primary-color-transparent);
+  margin: 5vmax auto;
   border-radius: 2px;
 }
 
@@ -225,6 +233,14 @@ textarea {
 .center-row {
   display: flex;
   justify-content: center;
+}
+
+.copyright {
+  display: flex;
+  justify-content:center;
+  font-size: 10px;
+  padding-top: 16px;
+  color: var(--primary-color-slightly-transparent);
 }
 
 .socials {
