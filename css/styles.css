@@ -4,6 +4,7 @@
   --primary-color-slightly-transparent: rgba(74,99,125,0.7);
   --background-color: #f7f3e9;
   --default-color: #4B3B2A;
+  --default-color-secondary: #808080;
 }
 
 body {
@@ -230,6 +231,12 @@ textarea {
   opacity: 0.7;
 }
 
+.sub-section-item {
+  font-size: 14px;
+  margin-left: 8px;
+  color: var(--default-color-secondary);
+}
+
 .center-row {
   display: flex;
   justify-content: center;
@@ -240,7 +247,7 @@ textarea {
   justify-content:center;
   font-size: 10px;
   padding-top: 16px;
-  color: var(--primary-color-slightly-transparent);
+  color: var(--default-color-secondary);
 }
 
 .socials {
