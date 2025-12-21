@@ -248,6 +248,62 @@ textarea {
   justify-content: center;
 }
 
+.contact-header {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.name-group {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.name-field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-label {
+  font-size: 0.85em;
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: #666;
+}
+
+.form-button {
+  margin-top: 20px;
+  padding: 12px;
+  background: transparent;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 3px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: auto;
+  align-self: flex-start;
+  font-family: Cormorant, Garamond, Roboto;
+}
+
+.form-button:hover {
+  background: #333;
+  color: white;
+}
+
+.required-tag {
+  font-size: 0.85em;
+  color: #888;
+  font-weight: normal;
+}
+
 .copyright {
   display: flex;
   justify-content:center;
