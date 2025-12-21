@@ -172,16 +172,16 @@ textarea {
 }
 
 .divider-centered {
-  width: 20px;
-  height: 2px;
+  width: 100px;
+  height: 1px;
   background: var(--primary-color-transparent);
-  margin: 10px 0px;
+  margin: 20px auto;
   border-radius: 2px;
 }
 
 .bigger-divider-centered {
-  width: 180px;
-  height: 2px;
+  width:540px;
+  height: 1px;
   background: var(--primary-color-transparent);
   margin: 5vmax auto;
   border-radius: 2px;
@@ -246,6 +246,12 @@ textarea {
 .center-row {
   display: flex;
   justify-content: center;
+}
+
+.picture-and-description {
+  display: flex;
+  flex-direction: row;
+  gap:16px;
 }
 
 .contact-header {
@@ -435,4 +441,18 @@ textarea {
   .nav-links.open {
     opacity: 1;
   }
+
+ .picture-and-description {
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+}
+
+  .bigger-divider-centered {
+  width:300px;
+  height: 1px;
+  background: var(--primary-color-transparent);
+  margin: 5vmax auto;
+  border-radius: 2px;
+}
 }
