@@ -171,6 +171,22 @@ textarea {
   gap: 16px;
 }
 
+.bio-and-photo {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.bio {
+  justify-self:right;
+}
+
+.photo {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .divider-centered {
   width: 100px;
   height: 1px;
@@ -440,6 +456,18 @@ textarea {
 
   .nav-links.open {
     opacity: 1;
+  }
+
+  .bio-and-photo {
+    flex-direction: column;
+  }
+
+  .bio-and-photo .photo {
+    order: 1;
+  }
+
+  .content-grid .bio {
+    order: 2;
   }
 
  .picture-and-description {
