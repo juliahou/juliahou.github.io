@@ -234,8 +234,6 @@ textarea {
 
 .author-photo img {
   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
-  filter: brightness(80%);
-  transition: none;
 }
 
 .divider-centered {
@@ -527,12 +525,6 @@ textarea {
   .content-grid .bio {
     order: 2;
   }
-
-  .author-photo img {
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
-  filter: brightness(80%);
-  transition: none;
-}
 
   .bigger-divider-centered {
   width:300px;
