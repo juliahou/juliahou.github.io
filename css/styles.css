@@ -14,6 +14,7 @@ body {
 background-color: var(--background-color);
     margin:0;
   box-sizing:border-box;
+  overflow-x: hidden;
 }
 
 a {
@@ -407,7 +408,7 @@ textarea {
 
 @keyframes walkAcross {
   0%   { left: -200px; }
-  100% { left: 110vw; }
+  100% { left: 100vw; }
 }
 
 @media (max-width: 768px) {
