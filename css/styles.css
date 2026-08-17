@@ -161,7 +161,9 @@ textarea {
     box-sizing: border-box;
     display: flex;
     position: relative;
-    max-width:640px;
+    max-width:800px;
+    border-left: 1px var(--primary-color-transparent) solid;
+    border-right: 1px var(--primary-color-transparent) solid;
 }
 
 .content {
