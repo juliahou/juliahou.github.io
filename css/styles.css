@@ -391,8 +391,12 @@ textarea {
   gap: 8px;
 }
 
+.footer-wrapper {
+  position:relative;
+}
+
 .cat-animation {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: -150px;
   width: 320px; /* adjust size as needed */
