@@ -162,9 +162,18 @@ textarea {
     box-sizing: border-box;
     display: flex;
     position: relative;
+    max-width:640px;
+}
+
+.content-wrapper-main{
+  padding-right: 5vw;
+    padding-left: 5vw;
+    justify-content: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
     max-width:800px;
-    border-left: 1px var(--primary-color-transparent) solid;
-    border-right: 1px var(--primary-color-transparent) solid;
 }
 
 .content {
